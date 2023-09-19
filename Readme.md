@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Андрей Пятков](https://up.htmlacademy.ru/htmlcss/38/user/2391991).
-* Наставник: `Виктор Рыбаков`.
+* Наставник: `Виктор Рыбаков`(https://htmlacademy.ru/profile/viktor-rybakov).
 
 ---
 
