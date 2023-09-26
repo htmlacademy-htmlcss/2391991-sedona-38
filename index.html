@@ -38,11 +38,14 @@
     </header>
 
     <main class="main-content">
+      <!-- Добавить секцию для данного блока  -->
       <h1 class="visually-hidden">Welcome to the gorgeous Sedona</h1>
+      <!-- Соединить все картинки в одну  -->
       <img class="logo-hero" src="#" alt="Welcome">
       <img class="logo-hero" src="#" alt="to the  gorgeous">
       <img class="logo-hero" src="#" alt="Sedona">
 
+      <!-- Сделать параграфом -->
       <h2>Седона — небольшой городок в Аризоне,
         заслуживающий большего!</h2>
       <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
@@ -51,6 +54,7 @@
         <h2>Преимущества</h2>
         <ul class="advantages-list">
           <li class="advantages-item">
+            <!-- По желанию добавить семантику с "Артикл" -->
             <h3 class="advantages-item-title">Настоящий городок</h3>
             <p class="advantages-item-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             <img class="advantages-img" src="#" alt="Фото города Седона">
@@ -95,20 +99,21 @@
       </section>
 
       <section class="form">
+        <!-- Изменить заголовок Н2 на что то другое, а нынешний заголовок сделать параграфом  -->
         <h2>Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button class="button" type="submit">Записаться</button>
+        <button class="button" type="submit">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
       </section>
 
       <section class="newsletter">
         <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
         <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label for="newsletter-email">Email</label>
+          <label class="visually-hidden" for="newsletter-email">Email</label>
           <input class="field" placeholder="email@example.com" type="email" name="newsletter-email"
             id="newsletter-email" required>
           <button class="button newsletter-button" type="submit">
-            <span class="visually-hidden">Подписаться</span>
+            <span>Подписаться</span>
           </button>
         </form>
       </section>
