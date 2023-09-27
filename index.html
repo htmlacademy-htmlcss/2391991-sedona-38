@@ -3,13 +3,15 @@
 
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Седона - город в Аризоне</title>
   </head>
 
   <body>
     <header class="page-header">
       <nav class="navigation">
-        <img class="logo" src="#" alt="Логотип сайта Sedona">
+        <a class="logo-link">
+          <img class="logo" src="#" alt="Логотип сайта Sedona">
+        </a>
         <ul class="navigation-list">
           <li class="navigation-item"><a class="navigation-link navigation-link-current">Главная</a></li>
           <li class="navigation-item"><a class="navigation-link" href="#">О Седоне</a></li>
@@ -38,43 +40,47 @@
     </header>
 
     <main class="main-content">
-      <!-- Добавить секцию для данного блока  -->
-      <h1 class="visually-hidden">Welcome to the gorgeous Sedona</h1>
-      <!-- Соединить все картинки в одну  -->
-      <img class="logo-hero" src="#" alt="Welcome">
-      <img class="logo-hero" src="#" alt="to the  gorgeous">
-      <img class="logo-hero" src="#" alt="Sedona">
-
-      <!-- Сделать параграфом -->
-      <h2>Седона — небольшой городок в Аризоне,
-        заслуживающий большего!</h2>
-      <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+      <section class="hero">
+        <h1 class="visually-hidden">Welcome to the gorgeous Sedona</h1>
+        <img class="logo-hero" src="#" alt="Welcome to the gorgeous Sedona Becouse the Grand Canyon sucrs">
+        <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+      </section>
 
       <section class="advantages">
+        <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         <h2>Преимущества</h2>
         <ul class="advantages-list">
           <li class="advantages-item">
-            <!-- По желанию добавить семантику с "Артикл" -->
-            <h3 class="advantages-item-title">Настоящий городок</h3>
-            <p class="advantages-item-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img class="advantages-img" src="#" alt="Фото города Седона">
+            <article>
+              <h3 class="advantages-item-title">Настоящий городок</h3>
+              <p class="advantages-item-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+              <img class="advantages-img" src="#" alt="Фото города Седона">
+            </article>
           </li>
           <li class="advantages-item">
-            <h3 class="advantages-item-title">Небольшая площадь</h3>
-            <p class="advantages-item-description">Все достопримечательности находятся очень близко</p>
+            <article>
+              <h3 class="advantages-item-title">Небольшая площадь</h3>
+              <p class="advantages-item-description">Все достопримечательности находятся очень близко</p>
+            </article>
           </li>
           <li class="advantages-item">
-            <h3 class="advantages-item-title">Красивая дорога</h3>
-            <p class="advantages-item-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            <article>
+              <h3 class="advantages-item-title">Красивая дорога</h3>
+              <p class="advantages-item-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            </article>
           </li>
           <li class="advantages-item">
-            <h3 class="advantages-item-title">Мало туристов</h3>
-            <p class="advantages-item-description">Большинство едет в Гранд Каньон и толпится там</p>
+            <article>
+              <h3 class="advantages-item-title">Мало туристов</h3>
+              <p class="advantages-item-description">Большинство едет в Гранд Каньон и толпится там</p>
+            </article>
           </li>
           <li class="advantages-item">
-            <img class="advantages-img" src="#" alt="Достопримечательность Мост Дьявола">
-            <h3 class="advantages-item-title">Там есть мост дьявола</h3>
-            <p class="advantages-item-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <article>
+              <img class="advantages-img" src="#" alt="Достопримечательность Мост Дьявола">
+              <h3 class="advantages-item-title">Там есть мост дьявола</h3>
+              <p class="advantages-item-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            </article>
           </li>
         </ul>
       </section>
@@ -99,10 +105,11 @@
       </section>
 
       <section class="form">
-        <!-- Изменить заголовок Н2 на что то другое, а нынешний заголовок сделать параграфом  -->
-        <h2>Заинтересовались?</h2>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button class="button" type="submit">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+        <h2 class="visually-hidden">Поиск гостиниц</h2>
+        <p class="form-title">Заинтересовались?</p>
+        <p class="form-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
+          Седоне</p>
+        <button class="button" type="submit">Поиск гостиницы в Седоне</button>
       </section>
 
       <section class="newsletter">
