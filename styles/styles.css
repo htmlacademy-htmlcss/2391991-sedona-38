@@ -63,7 +63,6 @@ body {
     background-position: center bottom;
 }
 
-
 /* advantages */
 .advantages-title {
     color: #000;
@@ -83,4 +82,54 @@ body {
 
 .advantages-list {
     text-align: center;
+}
+
+/* rest */
+.rest h2 {
+    text-align: center;
+    color: #000;
+
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.rest-description {
+    text-align: center;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.rest-list {
+    text-align: center;
+}
+
+.rest-item-title {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.rest-item-container-1 {
+    background-image: url("../images/rest/rest-icon-1.svg");
+    background-color: rgba(131, 179, 211, 0.12);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rest-item-container-2 {
+    background-image: url("../images/rest/rest-icon-2.svg");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rest-item-container-3 {
+    background-image: url("../images/rest/rest-icon-3.svg");
+    background-color: rgba(131, 179, 211, 0.12);
+    background-position: center;
+    background-repeat: no-repeat;
 }
