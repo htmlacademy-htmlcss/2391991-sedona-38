@@ -61,6 +61,7 @@ body {
     background-repeat: no-repeat;
 }
 
+/* advantages */
 .advantages-title {
     text-align: center;
     color: #000;
@@ -71,10 +72,13 @@ body {
     text-transform: uppercase;
 }
 
-/* advantages */
 .advantages-description {
     color: #333;
     text-align: center;
     font-size: 22px;
     line-height: 26px;
+}
+
+.advantages-list {
+    text-align: center;
 }
