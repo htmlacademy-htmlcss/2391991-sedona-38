@@ -55,10 +55,11 @@ body {
 
 /* hero */
 .hero {
-    background-image: url("../images/background/hero-background.jpg");
-    color: #333;
+    background-image: url(../images/background/hero-background.jpg);
+    color: #000;
     background-size: 1200px 485px;
     background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 /* advantages */
@@ -73,7 +74,6 @@ body {
 }
 
 .advantages-description {
-    color: #333;
     text-align: center;
     font-size: 22px;
     line-height: 26px;
@@ -81,4 +81,35 @@ body {
 
 .advantages-list {
     text-align: center;
+}
+
+/* rest */
+.rest h2 {
+    color: #000;
+    text-align: center;
+
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.rest-description {
+    text-align: center;
+
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.rest-list {
+    text-align: center;
+}
+
+.rest-item-title {
+    color: #000;
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
 }
