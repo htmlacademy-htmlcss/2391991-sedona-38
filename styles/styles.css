@@ -53,3 +53,12 @@ body {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+/* hero */
+.hero {
+    background-image: url("../images/background/hero-background.jpg");
+    background-color: #fff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
