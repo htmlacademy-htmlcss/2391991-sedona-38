@@ -161,3 +161,39 @@ body {
     line-height: 36px;
     text-transform: uppercase;
 }
+
+/* newsletter */
+.newsletter {
+    background-image: url("../images/background/newsletter-background.jpg");
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.newsletter-title {
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.newsletter-description {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.field {
+    color: #000;
+    line-height: 24px;
+}
+
+.newsletter-button {
+    color: #fff;
+    background-color: #82B3D3;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+}
