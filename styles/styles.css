@@ -197,3 +197,32 @@ body {
     line-height: 36px;
     text-transform: uppercase;
 }
+
+/* page-footer */
+.footer-social-item-vk {
+    background-image: url("../images/social/Vkontakte.svg");
+    color: rgba(131, 179, 211, 1);
+    background-repeat: no-repeat;
+}
+
+.footer-social-item-tg {
+    background-image: url("../images/social/Telegram.svg");
+    color: rgba(131, 179, 211, 1);
+    background-repeat: no-repeat;
+}
+
+.footer-social-item-yt {
+    background-image: url("../images/social/YouTube.svg");
+    color: rgba(131, 179, 211, 1);
+    background-repeat: no-repeat;
+}
+
+.footer-number {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
