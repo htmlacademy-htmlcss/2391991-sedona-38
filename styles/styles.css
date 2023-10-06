@@ -19,14 +19,18 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: #333;
-    background-color: #fff;
+    background-color: #f2f2f2;
 }
 
-.visually-hidden {
+/* .visually-hidden {
     visibility: hidden;
+} */
+
+/* page-header */
+.page-header {
+    background-color: #ffffff;
 }
 
-/* header */
 .navigation-link {
     font-size: 20px;
     font-weight: 700;
@@ -34,18 +38,19 @@ body {
 
     text-align: center;
     color: #000;
-    background-color: #fff;
     text-decoration: none;
     text-transform: capitalize;
 }
 
+
+/* добавить кнопкам и импутам шрифты по макету */
 .button-navigation-link {
     background-color: #756157;
 }
 
 .navigation-link-button {
     text-align: center;
-    color: #fff;
+    color: #ffffff;
 
     font-size: 16px;
     font-weight: 700;
@@ -57,13 +62,17 @@ body {
 /* hero */
 .hero {
     background-image: url("../images/background/hero-background.jpg");
-    background-color: #fff;
-    background-size: contain;
+    background-color: #f2f2f2;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
 }
 
 /* advantages */
+.advantages {
+    background-color: #ffffff;
+}
+
 .advantages-title {
     color: #000;
     text-align: center;
@@ -82,6 +91,31 @@ body {
 
 .advantages-list {
     text-align: center;
+}
+
+.advantages-item {
+    color: #333333;
+    list-style: none;
+}
+
+.advantages-item-title {
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+
+.item-city {
+    background-color: #82B3D3;
+    color: #ffffff;
+}
+
+.item-turist {
+    background-color: rgba(131, 179, 211, 0.12);
+}
+
+.item-road {
+    background-color: rgba(131, 179, 211, 0.20);
 }
 
 /* rest */
