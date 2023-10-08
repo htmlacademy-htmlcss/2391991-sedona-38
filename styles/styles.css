@@ -18,7 +18,7 @@ body {
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
-    color: #333;
+    color: #333333;
     background-color: #f2f2f2;
 }
 
@@ -37,7 +37,7 @@ body {
     line-height: 24px;
 
     text-align: center;
-    color: #000;
+    color: #000000;
     text-decoration: none;
     text-transform: capitalize;
 }
@@ -74,7 +74,7 @@ body {
 }
 
 .advantages-title {
-    color: #000;
+    color: #000000;
     text-align: center;
 
     font-size: 30px;
@@ -121,7 +121,7 @@ body {
 /* rest */
 .rest h2 {
     text-align: center;
-    color: #000;
+    color: #000000;
 
     font-size: 30px;
     line-height: 36px;
@@ -139,7 +139,7 @@ body {
 }
 
 .rest-item-title {
-    color: #000;
+    color: #000000;
     text-align: center;
     font-size: 24px;
     font-weight: 700;
@@ -156,7 +156,7 @@ body {
 
 .rest-item-container-2 {
     background-image: url("../images/rest/rest-icon-2.svg");
-    background-color: #fff;
+    background-color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -236,6 +236,9 @@ body {
 }
 
 /* page-footer */
+.page-footer {
+    background-color: #ffffff;
+}
 
 /* расскомментировать в 8 блоке */
 /* .footer-link-vk {
@@ -264,4 +267,171 @@ body {
     line-height: 40px;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+
+/* Начало страницы КАТАЛОГ */
+
+/* main-inner */
+.main-background {
+    background-image: url("../images/background/catalog-filter-background.jpg");
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner-header-title {
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 78px;
+}
+
+.breadcrumbs {
+    list-style: none;
+}
+
+.breadcrumbs-link {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+
+/* filter */
+.catalog-filter-group {
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.catalog-filter-list {
+    list-style: none;
+}
+
+.button-filter-apply {
+    background-color: #82B3D3;
+    border-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.button-filter-reset {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+/* catalog-products */
+.catalog-products {
+    background-color: #ffffff;
+}
+
+.products-header-description {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.buttons-locations {
+    list-style: none;
+}
+
+
+/* products-cards */
+.product-list {
+    list-style: none;
+}
+
+.product-card-link-title {
+    color: #000000;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.product-button-more {
+    background-color: #756157;
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.product-button-favorites {
+    background-color: #82B3D3;
+    border-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.button-selected {
+    background-color: #7DB54F;
+}
+
+/* products-footer */
+.pagination {
+    list-style: none;
+}
+
+.pagination-link {
+    background-color: #82B3D3;
+    color: #ffffff;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.pagination-current {
+    background-color: #F2F2F2;
+    color: #000000;
+}
+
+/* newsletter-catalog */
+.newsletter-catalog {
+    background-color: #ffffff;
+}
+
+.newsletter-catalog-title {
+    color: #000000;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.newsletter-catalog-description {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.newsletter-catalog-button {
+    background-color: #82B3D3;
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0);
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
 }
