@@ -16,8 +16,8 @@
 
 body {
     font-family: "PT Sans", sans-serif;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 22px;
+    line-height: 26px;
     color: #333333;
     background-color: #f2f2f2;
 }
@@ -42,10 +42,40 @@ body {
     text-transform: capitalize;
 }
 
+.navigation-user-link {
+    color: #000000;
+    width: 18px;
+    height: 18px;
+    text-decoration: none;
+}
 
-/* добавить кнопкам и импутам шрифты по макету */
+.navigation-user-value {
+    color: #ffffff;
+    background-color: #7DB54F;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 4px 5px 5px;
+
+    text-align: center;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+
 .button-navigation-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    font-family: inherit;
     background-color: #756157;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 4px;
+
+    width: 160px;
+    height: 36px;
 }
 
 .navigation-link-button {
@@ -85,8 +115,6 @@ body {
 
 .advantages-description {
     text-align: center;
-    font-size: 22px;
-    line-height: 26px;
 }
 
 .advantages-list {
@@ -94,7 +122,6 @@ body {
 }
 
 .advantages-item {
-    color: #333333;
     list-style: none;
 }
 
@@ -104,6 +131,11 @@ body {
     text-transform: uppercase;
 }
 
+.advantages-item-description {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+}
 
 .item-city {
     background-color: #82B3D3;
@@ -130,12 +162,11 @@ body {
 
 .rest-description {
     text-align: center;
-    font-size: 22px;
-    line-height: 26px;
 }
 
 .rest-list {
     text-align: center;
+    list-style: none;
 }
 
 .rest-item-title {
@@ -145,6 +176,12 @@ body {
     font-weight: 700;
     line-height: 28px;
     text-transform: uppercase;
+}
+
+.rest-item-description {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .rest-item-container-1 {
@@ -185,13 +222,15 @@ body {
 
 .form-description {
     text-align: center;
-    font-size: 22px;
-    line-height: 26px;
 }
 
-.button {
+.button-form {
+    font-family: inherit;
     background-color: #756157;
     color: #ffffff;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 4px;
+
     text-align: center;
     font-size: 20px;
     font-weight: 700;
@@ -202,7 +241,9 @@ body {
 /* newsletter */
 .newsletter {
     background-image: url("../images/background/newsletter-background.jpg");
+    background-color: #296085;
     color: #ffffff;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -215,19 +256,24 @@ body {
 
 .newsletter-description {
     text-align: center;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 26px;
 }
 
 .field {
+    font-family: inherit;
+    background-color: #F2F2F2;
     color: #000000;
+    border-radius: 4px 0px 0px 4px;
+
     line-height: 24px;
 }
 
 .newsletter-button {
+    font-family: inherit;
     color: #ffffff;
     background-color: #82B3D3;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 0px 4px 4px 0px;
+
     text-align: center;
     font-size: 20px;
     font-weight: 700;
@@ -276,12 +322,12 @@ body {
 .main-background {
     background-image: url("../images/background/catalog-filter-background.jpg");
     color: #ffffff;
+    background-color: #296085;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .inner-header-title {
-    color: #ffffff;
     font-size: 60px;
     line-height: 78px;
 }
@@ -297,7 +343,6 @@ body {
     text-decoration: none;
 }
 
-
 /* filter */
 .catalog-filter-group {
     border-color: rgba(255, 255, 255, 0);
@@ -307,11 +352,20 @@ body {
     list-style: none;
 }
 
-.button-filter-apply {
-    background-color: #82B3D3;
-    border-color: rgba(255, 255, 255, 0);
-    color: #ffffff;
+.catalog-filter-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+}
 
+.control {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.button-filter {
+    font-family: inherit;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
@@ -319,16 +373,17 @@ body {
     text-transform: uppercase;
 }
 
-.button-filter-reset {
+.button-apply {
+    color: #ffffff;
+    background-color: #82B3D3;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 4px;
+}
+
+.button-reset {
     background-color: rgba(255, 255, 255, 0);
     border-color: rgba(255, 255, 255, 0);
     color: #ffffff;
-
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
-    text-transform: uppercase;
 }
 
 /* catalog-products */
@@ -344,10 +399,20 @@ body {
     text-transform: uppercase;
 }
 
+.select-control {
+    font-family: inherit;
+    color: #333333;
+    font-size: 18px;
+    line-height: 21px;
+}
+
 .buttons-locations {
     list-style: none;
 }
 
+.button-location {
+    font-family: inherit;
+}
 
 /* products-cards */
 .product-list {
@@ -361,30 +426,58 @@ body {
     text-decoration: none;
 }
 
-.product-button-more {
-    background-color: #756157;
+.product-card-description {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.card-price {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.product-button {
+    font-family: inherit;
     color: #ffffff;
+    border-radius: 4px;
+    border-color: rgba(255, 255, 255, 0);
 
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
+}
+
+.product-button-more {
+    background-color: #756157;
+}
+
+.product-button-more-link {
+    color: #ffffff;
     text-decoration: none;
 }
 
 .product-button-favorites {
     background-color: #82B3D3;
-    border-color: rgba(255, 255, 255, 0);
     color: #ffffff;
-
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
-    text-transform: uppercase;
 }
 
 .button-selected {
     background-color: #7DB54F;
+}
+
+.rating {
+    font-family: inherit;
+    width: 140px;
+    height: 37px;
+    text-align: center;
+    border-color: rgba(255, 255, 255, 0);
+
+    border-radius: 4px;
+    background-color: #F2F2F2;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
 }
 
 /* products-footer */
@@ -421,17 +514,5 @@ body {
 }
 
 .newsletter-catalog-description {
-    font-size: 22px;
-    line-height: 26px;
-}
-
-.newsletter-catalog-button {
-    background-color: #82B3D3;
-    color: #ffffff;
-    border-color: rgba(255, 255, 255, 0);
-
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 36px;
-    text-transform: uppercase;
+    text-align: center;
 }
