@@ -140,6 +140,10 @@ body {
 }
 
 .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
@@ -173,6 +177,10 @@ body {
 }
 
 /* rest */
+.rest {
+    background-color: #ffffff;
+}
+
 .rest h2 {
     text-align: center;
     color: #000000;
@@ -187,8 +195,19 @@ body {
 }
 
 .rest-list {
+    display: flex;
+    justify-content: space-between;
     text-align: center;
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rest-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 85px;
 }
 
 .rest-item-title {
