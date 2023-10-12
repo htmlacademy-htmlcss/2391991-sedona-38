@@ -44,17 +44,15 @@ body {
 }
 
 .navigation-list {
-    width: 620px;
     list-style: none;
+    width: 620px;
     padding: 0;
     margin: 0;
 }
 
 .navigation-user {
-    width: 268px;
     list-style: none;
-    padding: 0;
-    margin: 0;
+    max-width: 268px;
     margin-left: auto;
 }
 
@@ -67,13 +65,6 @@ body {
     color: #000000;
     text-decoration: none;
     text-transform: capitalize;
-}
-
-.navigation-user-link {
-    color: #000000;
-    width: 18px;
-    height: 18px;
-    text-decoration: none;
 }
 
 .navigation-user-value {
@@ -122,6 +113,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
+}
+
+.logo-hero {
+    display: block;
+    margin: 0 auto;
 }
 
 /* advantages */
