@@ -108,11 +108,14 @@ body {
 
 /* hero */
 .hero {
+    display: block;
     background-image: url("../images/background/hero-background.jpg");
     background-color: #f2f2f2;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
+    padding: 0;
+    margin: 0;
 }
 
 .logo-hero {
@@ -129,6 +132,8 @@ body {
     color: #000000;
     text-align: center;
 
+    padding: 0;
+    margin: 0;
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
@@ -185,6 +190,8 @@ body {
     text-align: center;
     color: #000000;
 
+    padding: 0;
+    margin: 0;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
@@ -288,6 +295,13 @@ body {
 
 /* newsletter */
 .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    padding: 96px 258px 104px;
+
     background-image: url("../images/background/newsletter-background.jpg");
     background-color: #296085;
     color: #ffffff;
@@ -297,13 +311,18 @@ body {
 }
 
 .newsletter-title {
+    padding: 0;
+    margin: 0;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
 }
 
 .newsletter-description {
-    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    font-style: normal;
 }
 
 .field {
