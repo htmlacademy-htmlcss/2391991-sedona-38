@@ -318,13 +318,6 @@ body {
     text-transform: uppercase;
 }
 
-.newsletter-description {
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-    font-style: normal;
-}
-
 .field {
     font-family: inherit;
     background-color: #F2F2F2;
@@ -352,6 +345,19 @@ body {
 .page-footer {
     background-color: #ffffff;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 40px 70px 30px;
+    margin: 0;
+}
+
+.footer-social {
+    width: 142px;
+}
+
 
 /* расскомментировать в 8 блоке */
 /* .footer-link-vk {
