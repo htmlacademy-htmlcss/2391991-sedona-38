@@ -117,13 +117,13 @@
           <header class="products-header" data-test="header">
             <h2 class="visually-hidden">Список гостиниц</h2>
             <p class="products-header-description">Найдено гостиниц: 38</p>
-            <div class="select-controls">
-              <select class="select-control" aria-label="Сортировка">
-                <option value="popular">Сначала популярные</option>
-                <option value="cheap">Сначала дешевые</option>
-                <option value="expensive">Сначала дорогие</option>
-              </select>
+            <select class="select-control" aria-label="Сортировка">
+              <option value="popular">Сначала популярные</option>
+              <option value="cheap">Сначала дешевые</option>
+              <option value="expensive">Сначала дорогие</option>
+            </select>
 
+            <div class="container-location">
               <ul class="buttons-locations">
                 <li class="buttons-locations-items">
                   <button class="button-location button-net" type="button">
@@ -147,7 +147,7 @@
           <section class="products-cards" data-test="catalog">
             <ul class="product-list">
               <li class="product-card">
-                <article>
+                <article class="card-container">
                   <a class="product-card-link-img" href="#">
                     <img class="product-card-img" src="images/hotels/hotel-1.jpg" width="300" height="212"
                       alt="Ночное небо: вид из пещеры" />
@@ -168,7 +168,7 @@
                 </article>
               </li>
               <li class="product-card">
-                <article>
+                <article class="card-container">
                   <a class="product-card-link-img" href="#">
                     <img class="product-card-img" src="images/hotels/hotel-2.jpg" width="300" height="212"
                       alt="Вид на холмы с радугой" />
@@ -189,7 +189,7 @@
                 </article>
               </li>
               <li class="product-card">
-                <article>
+                <article class="card-container">
                   <a class="product-card-link-img" href="#">
                     <img class="product-card-img" src="images/hotels/hotel-3.jpg" width="300" height="212"
                       alt="Вид на красные горы" />
@@ -210,7 +210,7 @@
                 </article>
               </li>
               <li class="product-card">
-                <article>
+                <article class="card-container">
                   <a class="product-card-link-img" href="#">
                     <img class="product-card-img" src="images/hotels/hotel-4.jpg" width="300" height="212"
                       alt="Вид на ночое небо и гору" />
@@ -286,33 +286,39 @@
       </main>
 
       <footer class="page-footer" data-test="footer">
-        <section class="footer-social">
-          <h2 class="visually-hidden">Ссылки на социальные сети</h2>
-          <ul class="footer-social-list">
-            <li class="footer-social-item">
-              <a href="https://vk.com/htmlacademy">
-                <span class="visually-hidden">Vkontakte</span>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a href="https://t.me/htmlacademy">
-                <span class="visually-hidden">Telegram</span>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a href="https://www.youtube.com/user/htmlacademyru">
-                <span class="visually-hidden">Youtube</span>
-              </a>
-            </li>
-          </ul>
-        </section>
-
-        <a class="footer-number" href="tel:+78128121212">+7 (812) 812-12-12</a>
-
-        <a class="footer-link-logo-html" href="https://htmlacademy.ru/">
-          <img class="logo-html" src="images/Logo-htmlacademy.svg" width="114.9" height="32.9"
-            alt="Логотип .html academy" />
-        </a>
+        <div class="footer-container">
+          <section class="footer-social">
+            <h2 class="visually-hidden">Ссылки на социальные сети</h2>
+            <ul class="footer-social-list">
+              <li class="footer-social-item">
+                <a class="footer-link-vk" href="https://vk.com/htmlacademy">
+                  <span class="visually-hidden">Vkontakte</span>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="footer-link-tg" href="https://t.me/htmlacademy">
+                  <span class="visually-hidden">Telegram</span>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="footer-link-yt" href="https://www.youtube.com/user/htmlacademyru">
+                  <span class="visually-hidden">Youtube</span>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="footer-contacts">
+            <h2 class="visually-hidden">Номера телефонов</h2>
+            <a class="footer-number" href="tel:+78128121212">+7 (812) 812-12-12</a>
+          </section>
+          <section class="footer-partner">
+            <h2 class="visually-hidden">Разработчик</h2>
+            <a class="footer-link-logo-html" href="https://htmlacademy.ru/">
+              <img class="logo-html" src="images/Logo-htmlacademy.svg" width="114.9" height="32.9"
+                alt="Логотип .html academy" />
+            </a>
+          </section>
+        </div>
       </footer>
     </div>
   </body>
