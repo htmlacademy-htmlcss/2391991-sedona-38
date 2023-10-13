@@ -35,7 +35,7 @@ body {
     margin: 0 auto;
     width: 1200px;
     background-color: #ffffff;
-    box-shadow: ;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.20);
 }
 /* .visually-hidden {
     visibility: hidden;
@@ -161,24 +161,28 @@ body {
 }
 
 .advantages-list {
-    display: flex;
-    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
 .advantages-item {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
 .advantages-item-title {
+    padding: 0;
+    margin: 0;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
 }
 
 .advantages-item-description {
+    padding: 0;
+    margin: 0;
     text-align: center;
     font-size: 18px;
     line-height: 21px;
@@ -218,9 +222,6 @@ body {
 }
 
 .rest-list {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -231,45 +232,44 @@ body {
 }
 
 .rest-item-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 80px 85px;
 }
 
 .rest-item-title {
     color: #000000;
-    text-align: center;
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
     text-transform: uppercase;
+    padding: 0;
+    margin: 0;
 }
 
 .rest-item-description {
-    text-align: center;
     font-size: 18px;
     line-height: 21px;
+    padding: 0;
+    margin: 0;
 }
 
 .rest-item-container-1 {
     background-image: url("../images/rest/rest-icon-1.svg");
     background-color: rgba(131, 179, 211, 0.12);
-    background-position: center;
+    background-position: center 30px;
     background-repeat: no-repeat;
 }
 
 .rest-item-container-2 {
     background-image: url("../images/rest/rest-icon-2.svg");
     background-color: #ffffff;
-    background-position: center;
+    background-position: center 30px;
     background-repeat: no-repeat;
 }
 
 .rest-item-container-3 {
     background-image: url("../images/rest/rest-icon-3.svg");
     background-color: rgba(131, 179, 211, 0.12);
-    background-position: center;
+    background-position: center 30px;
     background-repeat: no-repeat;
 }
 
@@ -434,6 +434,7 @@ body {
     margin: 0;
     padding: 0;
     margin-right: 10px;
+justify-content: start;
 }
 
 /* filter */
