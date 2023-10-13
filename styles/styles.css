@@ -422,6 +422,7 @@ body {
 }
 
 .breadcrumbs {
+    display: flex;
     list-style: none;
 }
 
@@ -430,14 +431,22 @@ body {
     font-size: 16px;
     line-height: 21px;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
 }
 
 /* filter */
+.container-filter {
+    display: flex;
+}
+
 .catalog-filter-group {
     border-color: rgba(255, 255, 255, 0);
 }
 
 .catalog-filter-list {
+
     list-style: none;
 }
 
@@ -460,6 +469,10 @@ body {
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
+
+    width: 191px;
+    height: 36px;
+    padding: 0 50px;
 }
 
 .button-apply {
