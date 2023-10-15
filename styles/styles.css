@@ -427,6 +427,25 @@ body {
     width: 142px;
 }
 
+.footer-social-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-social-item {
+    width: 47px;
+    height: 40px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.footer-social-item:nth-child(3n) {
+    margin-right: 0;
+}
 
 /* расскомментировать в 8 блоке */
 /* .footer-link-vk {
