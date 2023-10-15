@@ -485,13 +485,14 @@ body {
 
 /* main-inner */
 .main-background {
+    display: block;
     background-image: url("../images/background/catalog-filter-background.jpg");
     color: #ffffff;
     background-color: #296085;
     background-repeat: no-repeat;
     background-size: cover;
 
-    padding: 35px 70px;
+    padding: 35px 70px 70px;
     margin: 0;
 }
 
