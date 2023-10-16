@@ -63,6 +63,12 @@ body {
     align-items: flex-start;
 }
 
+.logo {
+    display: block;
+    position: relative;
+    margin-bottom: -6px;
+}
+
 .navigation-list {
     display: flex;
     flex-wrap: wrap;
@@ -187,15 +193,22 @@ body {
 }
 
 .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    text-align: center;
+
 }
 
 .advantages-item {
     padding: 0;
     margin: 0;
     list-style: none;
+    background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-container {
+    padding: 103px 85px;
 }
 
 .advantages-item-title {
@@ -209,23 +222,22 @@ body {
 .advantages-item-description {
     padding: 0;
     margin: 0;
-    text-align: center;
     font-size: 18px;
     line-height: 21px;
 }
 
-.item-city {
+.advantages-item-wide {
     background-color: #82B3D3;
     color: #ffffff;
 }
 
-.item-turist {
+/* .item-turist {
     background-color: rgba(131, 179, 211, 0.12);
 }
 
 .item-road {
     background-color: rgba(131, 179, 211, 0.20);
-}
+} */
 
 /* rest */
 .rest {
