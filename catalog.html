@@ -38,12 +38,9 @@
                 <span class="navigation-user-value">12</span>
               </a>
             </li>
-            <li class="navigation-item">
-              <button class="button-navigation-link" type="button">
-                <a class="navigation-link-button" href="#">Хочу сюда!</a>
-              </button>
-            </li>
           </ul>
+
+          <a class="navigation-link-button" href="#">Хочу сюда!</a>
 
         </nav>
       </header>
@@ -129,7 +126,7 @@
             <div class="container-location">
               <ul class="buttons-locations">
                 <li class="buttons-locations-items">
-                  <button class="button-location button-net" type="button">
+                  <button class="button-location button-net button-net-active" type="button">
                     <span class="visually-hidden">Сетка товаров</span>
                   </button>
                 </li>
@@ -251,19 +248,7 @@
                 <a class="pagination-link" href="#">4</a>
               </li>
               <li class="pagination-item">
-                <a class="pagination-link" href="#">5</a>
-              </li>
-              <li class="pagination-item">
-                <a class="pagination-link" href="#">6</a>
-              </li>
-              <li class="pagination-item">
-                <a class="pagination-link" href="#">7</a>
-              </li>
-              <li class="pagination-item">
-                <a class="pagination-link" href="#">8</a>
-              </li>
-              <li class="pagination-item">
-                <a class="pagination-link" href="#">9</a>
+                <a class="pagination-link pagination-share" href="#">...</a>
               </li>
               <li class="pagination-item">
                 <a class="pagination-link" href="#">10</a>
@@ -273,18 +258,20 @@
         </section>
 
         <section class="newsletter-catalog" data-test="subscribe">
-          <h2 class="newsletter-catalog-title">Подпишитесь на рассылку</h2>
-          <p class="newsletter-catalog-description">
-            Только полезная информация и никакого спама, честное бойскаутское!
-          </p>
-          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label class="visually-hidden" for="newsletter-email">Email</label>
-            <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
-              required />
-            <button class="newsletter-button" type="button">
-              <span>Подписаться</span>
-            </button>
-          </form>
+          <div class="newsletter-container">
+            <h2 class="newsletter-catalog-title">Подпишитесь на рассылку</h2>
+            <p class="newsletter-catalog-description">
+              Только полезная информация и никакого спама, честное бойскаутское!
+            </p>
+            <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+              <label class="visually-hidden" for="newsletter-email">Email</label>
+              <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
+                required />
+              <button class="newsletter-button" type="button">
+                <span>Подписаться</span>
+              </button>
+            </form>
+          </div>
         </section>
       </main>
 
