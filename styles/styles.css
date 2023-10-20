@@ -643,6 +643,8 @@ body {
 }
 
 .products-header-description {
+    align-self: center;
+
     margin: 0;
     color: #000000;
     font-size: 30px;
