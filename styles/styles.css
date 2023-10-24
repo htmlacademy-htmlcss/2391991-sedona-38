@@ -581,10 +581,18 @@ body {
     margin-right: 70px;
 }
 
+.catalog-filter-group-price {
+    margin-left: auto;
+}
+
 .catalog-filter-list {
     padding: 0;
     margin: 0;
     list-style: none;
+}
+
+.catalog-filter-list-price {
+    display: flex;
 }
 
 .catalog-filter-title {
@@ -598,6 +606,15 @@ body {
 .control {
     font-size: 18px;
     line-height: 23px;
+}
+
+.control-input-price {
+    width: 143px;
+}
+
+.container-button {
+    display: flex;
+    flex-direction: column;
 }
 
 .button-filter {
@@ -618,6 +635,7 @@ body {
     background-color: #82B3D3;
     border-color: rgba(255, 255, 255, 0);
     border-radius: 4px;
+    margin-bottom: 32px;
 }
 
 .button-reset {
