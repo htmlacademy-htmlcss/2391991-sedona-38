@@ -92,6 +92,18 @@ body {
     margin-right: 20px;
 }
 
+.navigation-user .navigation-item:nth-child(1) .navigation-link{
+    background-image: url("../images/navigations-items/icon-search.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .navigation-user .navigation-item:nth-child(2) .navigation-link{
+    background-image: url("../images/navigations-items/icon-heart.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
 .navigation-link {
     display: block;
     padding: 20px 16px;
@@ -108,6 +120,12 @@ body {
 .navigation-user .navigation-link {
     min-width: 20px;
     min-height: 20px;
+}
+
+.navigation-icon-heart {
+    right: auto;
+  left: 20px;
+  margin: auto 0;
 }
 
 .navigation-user-value {
@@ -393,6 +411,8 @@ body {
     text-transform: uppercase;
 
     padding: 8px 50px;
+    display: inline-block;
+    cursor: pointer;
 }
 
 /* newsletter */
@@ -493,31 +513,23 @@ body {
     width: 47px;
     height: 40px;
     margin: 0;
-    margin-bottom: 8px;
+    padding: 0;
+    position: relative;
 }
 
 .footer-social-item:nth-child(3n) {
     margin-right: 0;
 }
 
-/* расскомментировать в 8 блоке */
-/* .footer-link-vk {
-    background-image: url("../images/social/Vkontakte.svg");
-    color: rgba(131, 179, 211, 1);
-    background-repeat: no-repeat;
+.footer-social-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    fill: #83B3D3;
 }
-
-.footer-link-tg {
-    background-image: url("../images/social/Telegram.svg");
-    color: rgba(131, 179, 211, 1);
-    background-repeat: no-repeat;
-}
-
-.footer-link-yt {
-    background-image: url("../images/social/YouTube.svg");
-    color: rgba(131, 179, 211, 1);
-    background-repeat: no-repeat;
-} */
 
 .footer-number {
     color: #000000;
@@ -556,7 +568,16 @@ body {
     display: flex;
     list-style: none;
     margin: 0;
-    padding-left: 41px;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.breadcrumbs-item:nth-child(2) {
+    padding-left: 10px;
+    background-image: url("../images/breadcrumbs-icons/breadcrumbs.svg");
+    background-repeat: no-repeat;
+    background-position: center right 83px;
+    background-size: 8px 20px;
 }
 
 .breadcrumbs-link {
@@ -564,9 +585,9 @@ body {
     font-size: 16px;
     line-height: 21px;
     text-decoration: none;
+    padding: 0;
     margin: 0;
-    margin-bottom: 40px;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 /* filter */
