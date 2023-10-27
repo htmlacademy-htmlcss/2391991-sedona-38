@@ -98,12 +98,6 @@ body {
     background-position: center;
 }
 
-/* .navigation-user .navigation-item:nth-child(2) .navigation-link{
-    background-image: url("../images/navigations-items/icon-heart.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-} */
-
 .navigation-link {
     position: relative;
     display: block;
@@ -738,24 +732,27 @@ body {
 } */
 
 .breadcrumbs-item {
-    position: relative;
-    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
     list-style-type: none;
 }
 
-/* .breadcrumbs-item::after {
+.breadcrumbs-item::after {
     content: "";
-    position: absolute;
+    display: block;
     background-image: url("../images/breadcrumbs-icons/breadcrumbs.svg");
     width: 7px;
     height: 10px;
-
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 10px;
 }
 
 .breadcrumbs-item:last-child::after {
     content: none;
-} */
+}
 
 .breadcrumbs-link {
     display: block;
@@ -766,19 +763,49 @@ body {
     margin: 0;
 }
 
-.breadcrumbs-link-house {
-    position: absolute;
-    background-image: url("../images/breadcrumbs-icons/breadcrumbs-house.svg");
-    width: 12px;
-    height: 12px;
-    background-repeat: no-repeat;
-    background-position: center;
-    top: 4px;
-}
-
 .breadcrumbs-link:hover {
     outline: none;
     color: rgba(255, 255, 255, 0.60);
+}
+
+.breadcrumbs-link:active {
+    outline: none;
+    color: rgba(255, 255, 255, 0.30);
+}
+
+.breadcrumbs-link:focus {
+    outline: none;
+    color: #ffffff;
+}
+
+.breadcrumbs-link-house {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12px;
+    height: 12px;
+}
+
+.breadcrumbs-icon-house {
+    display: block;
+    width: 12px;
+    height: 12px;
+    fill: #ffffff;
+}
+
+.breadcrumbs-link-house:hover .breadcrumbs-icon-house {
+    fill: #ffffff;
+    fill-opacity: 0.6;
+}
+
+.breadcrumbs-link-house:active .breadcrumbs-icon-house {
+    fill: #ffffff;
+    fill-opacity: 0.3;
+}
+
+.breadcrumbs-link-house:focus .breadcrumbs-icon-house {
+    fill: #ffffff;
+    fill: 0.3;
 }
 
 /* filter */
