@@ -165,23 +165,19 @@ body {
 }
 
 .navigation-link-button:hover {
-    outline: none;
     background-color: #615048;
 }
 
 .navigation-link-button:active {
-    outline: none;
     background-color: #756157;
     color: rgba(255, 255, 255, 0.30);
 }
 
 .navigation-link-button:focus {
-    outline: none;
     background-color: #615048;
 }
 
 .navigation-link-button:disabled {
-    outline: none;
     color: #ffffff;
     background-color: #E5E5E5;
 }
@@ -460,23 +456,19 @@ body {
 }
 
 .button-form:hover {
-    outline: none;
     background-color: #615048;
 }
 
 .button-form:active {
-    outline: none;
     background-color: #756157;
     color: rgba(255, 255, 255, 0.30);
 }
 
 .button-form:focus {
-    outline: none;
     background-color: #615048;
 }
 
 .button-form:disabled {
-    outline: none;
     color: #ffffff;
     background-color: #E5E5E5;
 }
@@ -550,23 +542,19 @@ body {
 }
 
 .newsletter-button:hover {
-    outline: none;
     background-color: #68A2CA;
 }
 
 .newsletter-button:active {
-    outline: none;
     background-color: #82B3D3;
     color: rgba(255, 255, 255, 0.30);
 }
 
 .newsletter-button:focus {
-    outline: none;
     background-color: #68A2CA;
 }
 
 .newsletter-button:disabled {
-    outline: none;
     color: #ffffff;
     background-color: #E5E5E5;
 }
@@ -621,18 +609,15 @@ body {
 }
 
 .footer-social-link:hover .footer-social-icon {
-    outline: none;
     fill: #68A2CA;
 }
 
 .footer-social-link:active .footer-social-icon {
-    outline: none;
     fill: #68A2CA;
     fill-opacity: 0.3;
 }
 
 .footer-social-link:focus .footer-social-icon {
-    outline: none;
     fill: #68A2CA;
 }
 
@@ -648,17 +633,14 @@ body {
 }
 
 .footer-number:hover {
-    outline: none;
     color: #756157;
 }
 
 .footer-number:active {
-    outline: none;
     color: rgba(117, 97, 87, 0.30);
 }
 
 .footer-number:focus {
-    outline: none;
     color: #756157;
 }
 
@@ -678,18 +660,15 @@ body {
 }
 
 .footer-link-logo-html:hover .logo-html {
-    outline: none;
     fill: #756157;
 }
 
 .footer-link-logo-html:active .logo-html {
-    outline: none;
     fill: #756157;
     fill-opacity: 0.3;
 }
 
 .footer-link-logo-html:focus .logo-html {
-    outline: none;
     fill: #756157;
 }
 
@@ -752,17 +731,14 @@ body {
 }
 
 .breadcrumbs-link:hover {
-    outline: none;
     color: rgba(255, 255, 255, 0.60);
 }
 
 .breadcrumbs-link:active {
-    outline: none;
     color: rgba(255, 255, 255, 0.30);
 }
 
 .breadcrumbs-link:focus {
-    outline: none;
     color: #ffffff;
 }
 
@@ -841,7 +817,6 @@ body {
 
 .control:active {
     border: none;
-    outline: none;
     opacity: 0.3;
 } */
 
@@ -863,7 +838,6 @@ body {
     opacity: 0.3;
     border: none;
     border-radius: 4px;
-    outline: none;
 }
 
 .control-input-price {
@@ -897,23 +871,19 @@ body {
 }
 
 .button-apply:hover {
-    outline: none;
     background-color: #68A2CA;
 }
 
 .button-apply:active {
-    outline: none;
     background-color: #82B3D3;
     color: rgba(255, 255, 255, 0.30);
 }
 
 .button-apply:focus {
-    outline: none;
     background-color: #68A2CA;
 }
 
 .button-apply:disabled {
-    outline: none;
     color: #ffffff;
     background-color: #E5E5E5;
 }
@@ -925,12 +895,10 @@ body {
 }
 
 .button-reset:hover {
-    outline: none;
     color: rgba(255, 255, 255, 0.30);
 }
 
 .button-reset:active {
-    outline: none;
     color: rgba(255, 255, 255, 0.30);
 }
 
@@ -987,7 +955,6 @@ body {
 
 .select-control:focus {
     border: 2px solid #68A2CA;
-    outline: none;
 }
 
 .select-control:disabled {
@@ -1149,23 +1116,19 @@ body {
 }
 
 .product-button-more-link:hover {
-    outline: none;
     background-color: #615048;
 }
 
 .product-button-more-link:active {
-    outline: none;
     background-color: #756157;
     color: rgba(255, 255, 255, 0.30);
 }
 
 .product-button-more-link:focus {
-    outline: none;
     background-color: #615048;
 }
 
 .product-button-more-link:disabled {
-    outline: none;
     color: #ffffff;
     background-color: #E5E5E5;
 }
@@ -1175,23 +1138,19 @@ body {
 }
 
 .product-button-favorites:hover {
-    outline: none;
     background-color: #68A2CA;
 }
 
 .product-button-favorites:active {
-    outline: none;
     background-color: #82B3D3;
     color: rgba(255, 255, 255, 0.30);
 }
 
 .product-button-favorites:focus {
-    outline: none;
     background-color: #68A2CA;
 }
 
 .product-button-favorites:disabled {
-    outline: none;
     color: #ffffff;
     background-color: #E5E5E5;
 }
@@ -1201,23 +1160,19 @@ body {
 }
 
 .button-selected:hover {
-    outline: none;
     background-color: #6C9E42;
 }
 
 .button-selected:active {
-    outline: none;
     background-color: #7DB54F;
     color: rgba(255, 255, 255, 0.30);
 }
 
 .button-selected:focus {
-    outline: none;
     background-color: #6C9E42;
 }
 
 .button-selected:disabled {
-    outline: none;
     color: #ffffff;
     background-color: #E5E5E5;
 }
@@ -1306,7 +1261,6 @@ body {
 }
 
 .pagination-link:focus:not(.pagination-current):not(.pagination-share) {
-    outline: none;
     border: 1px solid #82B3D3;
     background: #68A2CA;
 }
