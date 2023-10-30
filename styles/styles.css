@@ -366,12 +366,10 @@ body {
 
 .rest-item {
     width: 400px;
-}
 
-.rest-item-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
     padding: 180px 85px 80px;
@@ -386,7 +384,6 @@ body {
     text-align: center;
 
     width: 172px;
-    padding: 0;
     margin: 0;
     margin-bottom: 30px;
     font-size: 24px;
@@ -402,17 +399,17 @@ body {
     line-height: 21px;
 }
 
-.rest-item-container-1 {
+.rest-item-1 {
     background-image: url("../images/rest/rest-icon-1.svg");
 
 }
 
-.rest-item-container-2 {
+.rest-item-2 {
     background-image: url("../images/rest/rest-icon-2.svg");
     background-color: #ffffff;
 }
 
-.rest-item-container-3 {
+.rest-item-3 {
     background-image: url("../images/rest/rest-icon-3.svg");
 }
 
