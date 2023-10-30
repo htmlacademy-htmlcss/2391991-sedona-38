@@ -106,6 +106,18 @@ body {
     text-transform: capitalize;
 }
 
+.navigation-link:hover {
+    background-color: rgba(131, 179, 211, 0.20);
+}
+
+.navigation-link:active {
+    background-color: #82B3D3;
+}
+
+.navigation-link:focus {
+    background-color: #68A2CA;
+}
+
 .navigation-link-current::before {
     content: "";
     position: absolute;
@@ -279,44 +291,38 @@ body {
 }
 
 .advantages-item-title {
-    position: relative;
     color: #000000;
-    text-align: center;
 
-    width: 172px;
-    padding: 0;
-    margin: 0;
+    max-width: 172px;
+    margin-top: 0;
     margin-bottom: 30px;
     font-size: 24px;
     line-height: 28px;
+    text-align: center;
     text-transform: uppercase;
 }
 
-.advantages-item-title::before {
+.advantages-item-title::after {
+    display: block;
     content: "";
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
+    margin: 30px auto 0;
     width: 60px;
     height: 2px;
-    margin-left: -30px;
     background-color: rgba(0, 0, 0, 0.30);
 }
 
-.advantages-item-title-wide::before {
+.advantages-item-wide .advantages-item-title::after {
     background-color: rgba(255, 255, 255, 0.30);
 }
 
 .advantages-item-wide .advantages-item-title {
     color: #ffffff;
-
 }
 
 .advantages-item-description {
     text-align: center;
     padding: 0;
     margin: 0;
-    margin-top: 30px;
     font-size: 18px;
     line-height: 21px;
 }
@@ -382,6 +388,7 @@ body {
     width: 172px;
     padding: 0;
     margin: 0;
+    margin-bottom: 30px;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
@@ -391,7 +398,6 @@ body {
     text-align: center;
     padding: 0;
     margin: 0;
-    margin-top: 30px;
     font-size: 18px;
     line-height: 21px;
 }
@@ -907,10 +913,10 @@ body {
     outline: 3px solid #83B3D3;
 }
 
-/* .button-reset:disabled {
+.button-reset:disabled {
     color: #ffffff;
     background-color: #E5E5E5;
-} */
+}
 
 /* catalog-products */
 .catalog-products {
@@ -1186,15 +1192,22 @@ body {
 
 /* Разобраться как вставляются звезды */
 .rating-star {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 6px;
-    background-image: url("../images/star.svg");
-    background-repeat: no-repeat;
-    background-size: 18px 17px;
-    width: 140px;
     height: 17px;
+    margin: auto 0;
+    background-image: url("../images/star.svg");
+    background-repeat: space no-repeat;
+}
+
+.rating-star-2 {
+    width: 42px;
+}
+
+.rating-star-3 {
+    width: 66px;
+}
+
+.rating-star-4 {
+    width: 89px;
 }
 
 .rating {
