@@ -810,42 +810,34 @@ body {
 }
 
 .control {
+    position: relative;
+    display: block;
+    padding-left: 36px;
     font-size: 18px;
     line-height: 23px;
 }
 
-/* .control:hover {
+.control-mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 30%;
+}
+
+.control:hover .control-mark {
     opacity: 0.6;
 }
 
-.control:active {
-    border: none;
+.control:active .control-mark {
     opacity: 0.3;
-} */
-
-/* .control-input {
-
-} */
-
-/* .control-input:hover {
-    opacity: 0.6;
 }
 
-.control-input:focus {
-    border: none;
-    border-radius: 4px;
-    outline: 3px solid #83B3D3;
+.control-input:focus + .control-mark {
+    outline: 4px solid #83B3D3;
 }
-
-.control-input:active {
-    opacity: 0.3;
-    border: none;
-    border-radius: 4px;
-}
-
-.control-input-price {
-    width: 143px;
-} */
 
 .range {
     width: 288px;
@@ -853,6 +845,7 @@ body {
 
 .range-wrapper-inputs {
     display: flex;
+    position: relative;
 }
 
 .catalog-filter-label:not(:last-child) {
@@ -861,6 +854,10 @@ body {
 
 .range-input {
     font-family: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000000;
     box-sizing: border-box;
 
     padding: 12px 20px;
@@ -868,6 +865,16 @@ body {
     border-radius: 4px 0px 0px 4px;
     background: #f2f2f2;
     border: none;
+}
+
+.range-input:hover {
+    background: #E6E6E6;
+}
+
+.range-input:active,
+.range-input:focus {
+    outline: 3px solid #83B3D3;
+    background: #E6E6E6;
 }
 
 .range-input::-webkit-outer-spin-button,
@@ -878,6 +885,25 @@ body {
 
 .catalog-filter-label:last-child .range-input {
     border-radius: 0px 4px 4px 0px;
+}
+
+.label-text {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+.label-of {
+    position: absolute;
+    top: 12px;
+    left: 105px;
+}
+
+.label-to {
+    position: absolute;
+    top: 12px;
+    right: 20px;
 }
 
 .range-scale {
