@@ -801,6 +801,10 @@ body {
     display: flex;
 }
 
+.catalog-filter-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
 .catalog-filter-title {
     margin-bottom: 32px;
     font-size: 20px;
@@ -809,6 +813,7 @@ body {
     text-transform: capitalize;
 }
 
+/* Checkbox */
 .control {
     position: relative;
     display: block;
@@ -827,11 +832,13 @@ body {
     border-radius: 30%;
 }
 
-.control:hover .control-mark {
+.control:hover .control-mark,
+.control-label:hover {
     opacity: 0.6;
 }
 
-.control:active .control-mark {
+.control:active .control-mark,
+.control-label:active {
     opacity: 0.3;
 }
 
@@ -839,6 +846,51 @@ body {
     outline: 4px solid #83B3D3;
 }
 
+.control-input[type="checkbox"]:checked + .control-mark::before {
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    width: 12px;
+    height: 2px;
+    background-color: #3F5E72;
+    content: "";
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::after {
+    position: absolute;
+    top: 11px;
+    left: 3px;
+    width: 6px;
+    height: 2px;
+    background-color: #3F5E72;
+    content: "";
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before {
+    transform: rotate(-45deg);
+}
+
+  .control-input[type="checkbox"]:checked + .control-mark::after {
+    transform: rotate(45deg);
+}
+
+/* radio */
+.control-input[type="radio"] + .control-mark {
+    border-radius: 50%;
+}
+
+.control-input[type="radio"]:checked + .control-mark::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #3F5E72;
+    border-radius: 50%;
+}
+
+/* range */
 .range {
     width: 288px;
 }
@@ -909,7 +961,7 @@ body {
 .range-scale {
     position: relative;
     height: 4px;
-    margin-top: 44px;
+    margin-top: 38px;
     background-color: #e5e5e58d;
 }
 
@@ -953,6 +1005,7 @@ body {
 .container-button {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 }
 
 .button-filter {
@@ -1049,10 +1102,16 @@ body {
     line-height: 21px;
 
     padding: 0 20px;
+    padding-right: 32px;
 
     border: 2px solid #E5E5E5;
     border-radius: 4px;
     margin-left: auto;
+
+    background-image: url("../images/select-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    appearance: none;
 }
 
 .select-control:hover {
