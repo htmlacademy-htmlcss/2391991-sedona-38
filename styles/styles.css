@@ -847,6 +847,83 @@ body {
     width: 143px;
 } */
 
+.range {
+    width: 288px;
+}
+
+.range-wrapper-inputs {
+    display: flex;
+}
+
+.catalog-filter-label:not(:last-child) {
+    margin-right: 2px;
+}
+
+.range-input {
+    font-family: inherit;
+    box-sizing: border-box;
+
+    padding: 12px 20px;
+    width: 143px;
+    border-radius: 4px 0px 0px 4px;
+    background: #f2f2f2;
+    border: none;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+.catalog-filter-label:last-child .range-input {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.range-scale {
+    position: relative;
+    height: 4px;
+    margin-top: 44px;
+    background-color: #e5e5e58d;
+}
+
+.range-bar {
+    position: absolute;
+    height: 4px;
+    background-color: #ffffff;
+}
+
+.range-toggle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 30%;
+    border: none;
+    cursor: pointer;
+}
+
+.range-toggle:hover {
+    background: #ffffff;
+}
+
+.range-toggle:active {
+    outline: 2px solid #83B3D3;
+}
+
+.range-toggle:focus {
+    outline: 4px solid #83B3D3;
+}
+
+.toggle-min {
+    top: -8px;
+}
+
+.toggle-max {
+    top: -8px;
+    right: -10px;
+}
+
 .container-button {
     display: flex;
     flex-direction: column;
