@@ -69,6 +69,18 @@ body {
     margin-bottom: -6px;
 }
 
+.logo:hover {
+    fill-opacity: 0.6;
+}
+
+.logo:active {
+    fill-opacity: 0.3;
+}
+
+.logo:focus {
+    fill-opacity: 0.3;
+}
+
 .navigation-list {
     display: flex;
     flex-wrap: wrap;
@@ -107,15 +119,15 @@ body {
 }
 
 .navigation-link:hover {
-    background-color: rgba(131, 179, 211, 0.20);
+    opacity: 0.6;
 }
 
 .navigation-link:active {
-    background-color: #82B3D3;
+    opacity: 0.3;
 }
 
 .navigation-link:focus {
-    background-color: #68A2CA;
+    opacity: 0.3;
 }
 
 .navigation-link-current::before {
@@ -900,8 +912,13 @@ body {
     position: relative;
 }
 
-.catalog-filter-label:not(:last-child) {
+.range-filter-min {
     margin-right: 2px;
+    position: relative;
+}
+
+.range-filter-max{
+    position: relative;
 }
 
 .range-input {
@@ -913,8 +930,9 @@ body {
     box-sizing: border-box;
 
     padding: 12px 20px;
+    padding-right: 40px;
     width: 143px;
-    border-radius: 4px 0px 0px 4px;
+
     background: #f2f2f2;
     border: none;
 }
@@ -935,27 +953,36 @@ body {
     margin: 0;
 }
 
-.catalog-filter-label:last-child .range-input {
+.range-filter-min .range-input {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.range-filter-max .range-input {
     border-radius: 0px 4px 4px 0px;
 }
 
-.label-text {
+.range-filter-min span {
     font-size: 18px;
     line-height: 24px;
     color: #000000;
     opacity: 0.3;
-}
 
-.label-of {
     position: absolute;
-    top: 12px;
-    left: 105px;
-}
-
-.label-to {
-    position: absolute;
-    top: 12px;
     right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.range-filter-max span {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.3;
+
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .range-scale {
@@ -979,6 +1006,8 @@ body {
     border-radius: 30%;
     border: none;
     cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .range-toggle:hover {
@@ -993,12 +1022,7 @@ body {
     outline: 4px solid #83B3D3;
 }
 
-.toggle-min {
-    top: -8px;
-}
-
 .toggle-max {
-    top: -8px;
     right: -10px;
 }
 
@@ -1476,10 +1500,6 @@ body {
 }
 
 /* modal-container */
-.modal-container-close {
-    display: none;
-}
-
 .modal-container {
     position: fixed;
     top: 0;
@@ -1488,6 +1508,10 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(242, 242, 242, 0.80);
+}
+
+.modal-container-close {
+    display: none;
 }
 
 .modal {
