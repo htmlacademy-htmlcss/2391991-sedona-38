@@ -788,7 +788,7 @@ body {
 }
 
 /* filter */
-.container-filter {
+.catalog-filter {
     display: flex;
 }
 
@@ -915,10 +915,12 @@ body {
 .range-filter-min {
     margin-right: 2px;
     position: relative;
+    margin-bottom: 38px;
 }
 
 .range-filter-max{
     position: relative;
+    margin-bottom: 38px;
 }
 
 .range-input {
@@ -988,7 +990,6 @@ body {
 .range-scale {
     position: relative;
     height: 4px;
-    margin-top: 38px;
     background-color: #e5e5e58d;
 }
 
@@ -1696,6 +1697,11 @@ body {
     text-transform: capitalize;
 }
 
+.form-tooltip-icon {
+    position: relative;
+    padding-left: 10px;
+}
+
 .search-form-field {
     color: #000000;
     font-family: PT Sans;
@@ -1735,4 +1741,76 @@ body {
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
+}
+
+/* tooltip */
+.tooltip {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: -70px;
+    width: 26px;
+    height: 26px;
+}
+
+.tooltip-toggle {
+    display: block;
+    border: none;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    margin: 0;
+    background-color: #83B3D3;
+}
+
+.tooltip-icon {
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.tooltip-toggle:hover .tooltip-icon {
+    opacity: 0.3;
+}
+
+.tooltip-text {
+    border-radius: 10px;
+    background: #333333;
+    color: #ffffff;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.30);
+    text-transform: none;
+
+    font-size: 16px;
+    line-height: 20px;
+
+    padding: 15px 18px 18px 22px;
+    width: 216px;
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(15px);
+    z-index: 1;
+    display: none;
+}
+
+.tooltip-text::before {
+    content: "";
+    background-image: url("../images/modal-container/tooltip-triangle.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    widows: 19px;
+    height: 9px;
+    position: absolute;
+
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
 }
