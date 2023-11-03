@@ -1585,10 +1585,9 @@ body {
 }
 
 .field-group-container-1 .field-group {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 137px 1fr;
     justify-content: space-between;
-    align-items: center;
 }
 
 .field-group-container-1 .search-form-field {
@@ -1605,7 +1604,8 @@ body {
 
 .modal-error {
     margin-top: 4px;
-    margin-left: 157px;
+    margin-left: 20px;
+    grid-column: 2/3;
     color: #FF5757;
     font-size: 16px;
     line-height: 21px;
@@ -1613,7 +1613,8 @@ body {
 
 .modal-available {
     margin-top: 4px;
-    margin-left: 157px;
+    margin-left: 20px;
+    grid-column: 2/3;
     font-size: 16px;
     line-height: 21px;
 }
@@ -1624,18 +1625,24 @@ body {
     align-items: center;
 }
 
-.field-group-container-2 .field-group {
+.field-group-adults,
+.field-group-children {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 247px;
+}
+
+.field-group-children {
+    max-width: 242px;
 }
 
 .field-group-adults .field-group-title {
-    margin-right: 46px;
+    min-width: 137px;
 }
 
 .field-group-children .field-group-title {
-    margin-right: 82px;
+    margin-right: 10px;
 }
 
 .field-group-container-2 .search-form-field {
@@ -1672,6 +1679,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 
     border: none;
     padding: 0;
@@ -1708,11 +1716,6 @@ body {
     font-weight: 700;
     line-height: 24px;
     text-transform: capitalize;
-}
-
-.form-tooltip-icon {
-    position: relative;
-    padding-left: 10px;
 }
 
 .search-form-field {
@@ -1758,11 +1761,8 @@ body {
 
 /* tooltip */
 .tooltip {
-    position: absolute;
-    margin-top: 1px;
-    margin-left: -70px;
-    width: 26px;
-    height: 26px;
+    margin-right: 46px;
+    position: relative;
 }
 
 .tooltip-toggle {
