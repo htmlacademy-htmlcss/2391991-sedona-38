@@ -1634,6 +1634,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 28px;
 }
 
 .field-group-adults,
@@ -1754,7 +1755,8 @@ body {
 
 .search-form .field-group {
     margin: 0;
-    margin-bottom: 48px;
+    margin-bottom: 23px;
+    align-items: center;
 }
 
 .button-modal-search {
@@ -1806,7 +1808,7 @@ body {
     font-size: 16px;
     line-height: 20px;
 
-    padding: 15px 18px 18px 22px;
+    padding: 22px 18px 22px 22px;
     width: 216px;
 
     position: absolute;
