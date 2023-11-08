@@ -711,7 +711,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-    padding: 35px 70px 73px;
+    padding: 35px 70px 75px;
     margin: 0;
 }
 
@@ -1074,7 +1074,7 @@ body {
     background-color: #82B3D3;
     border: none;
     border-radius: 4px;
-    margin-bottom: 27px;
+    margin-bottom: 32px;
 }
 
 .button-apply:hover {
@@ -1099,6 +1099,7 @@ body {
     background-color: rgba(255, 255, 255, 0);
     border: none;
     color: #ffffff;
+    margin-bottom: -5px;
 }
 
 .button-reset:hover {
@@ -1129,12 +1130,11 @@ body {
 
 .products-header {
     display: flex;
-    margin-bottom: 40px;
+    align-items: center;
+    margin-bottom: 35px;
 }
 
 .products-header-description {
-    align-self: center;
-
     margin: 0;
     color: #000000;
     font-size: 30px;
@@ -1275,9 +1275,9 @@ body {
 }
 
 .product-card-title {
-    padding: 15px 0;
+    padding: 16px 0;
     margin: 0;
-    letter-spacing: -2px;
+    font-size: inherit;
 }
 
 .product-card-container-description {
@@ -1301,7 +1301,7 @@ body {
 .product-button-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 17px;
+    margin-bottom: 16px;
 }
 
 .product-button {
