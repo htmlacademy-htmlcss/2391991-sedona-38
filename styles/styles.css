@@ -87,7 +87,7 @@ body {
     flex-wrap: wrap;
     width: 620px;
     margin: 0;
-    margin-left: 29px;
+    margin-left: 28px;
     padding: 0;
     list-style: none;
 }
@@ -451,7 +451,7 @@ body {
 .form-title {
     color: #000000;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
 
     font-size: 30px;
     font-weight: 700;
@@ -461,7 +461,7 @@ body {
 
 .form-description {
     margin: 0;
-    margin-bottom: 54px;
+    margin-bottom: 53px;
 }
 
 .button-form {
@@ -507,7 +507,7 @@ body {
     align-items: center;
     text-align: center;
 
-    padding: 96px 258px 104px;
+    padding: 98px 258px 104px;
 
     background-image: url("../images/background/newsletter-background.jpg");
     background-color: #296085;
