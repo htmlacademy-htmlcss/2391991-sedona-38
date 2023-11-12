@@ -806,14 +806,6 @@ body {
     justify-content: space-between;
 }
 
-/* .catalog-filter-group-1 {
-    display: flex;
-}
-
-.catalog-filter-group-2 {
-    display: flex;
-} */
-
 .catalog-filter-group {
     border: none;
     padding: 0;
@@ -1397,8 +1389,6 @@ body {
     align-items: center;
 }
 
-
-/* Разобраться как вставляются звезды */
 .rating-star {
     height: 17px;
     margin: auto 0;
