@@ -259,7 +259,7 @@ body {
 .hero {
     display: block;
     background-image: url("../images/background/hero-background.jpg");
-    background-color: #f2f2f2;
+    background-color: #333333;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
